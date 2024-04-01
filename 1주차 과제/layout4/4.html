@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .back{
+            width: 1250px;
+            height: 1080px;
+            background-color: white;
+            position: relative;
+        }
+
+        .tops{
+            display: flex;
+        }
+
+        #top1{
+            width: 250px;
+            height: 100px;
+            background-color: #54D8DC;
+        }
+
+        #top2{
+            width: 1000px;
+            height: 100px;
+            background-color: #86DADC;
+        }
+
+        .images{
+            width: 415px;
+            height: 880px;
+            display: flex;
+        }
+
+        .bottoms{
+            display: flex;
+            position: absolute;
+            bottom: 0%;
+        }
+
+        #bottom1{
+            width: 250px;
+            height: 100px;
+            background-color: #FDE1E0;
+        }
+
+        .bottoms-2{
+            flex-direction: column;
+        }
+
+        #bottom2{
+            width: 1000px;
+            height: 50px;
+            background-color: #FECECE;
+        }
+
+        #bottom3{
+            width: 1000px;
+            height: 50px;
+            background-color: #FDB2B5;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="tops"> <!--파란색 상단-->
+            <div id="top1"></div>
+            <div id="top2"></div>
+        </div>
+        <div class="images"> <!--이미지파일-->
+            <img src="Rectangle-2.png">
+            <img src="Rectangle-3.png">
+            <img src="Rectangle-4.png">
+        </div>
+        <div class="bottoms"> <!--핑크색 하단-->
+            <div id="bottom1"></div>
+            <div class="bottoms-2">
+                <div id="bottom2"></div>
+                <div id="bottom3"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

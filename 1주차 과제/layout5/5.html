@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .back{
+            width: 1250px;
+            height: 1080px;
+            background-color: #DCD7CB;
+            position: relative;
+        }
+
+        .tops{
+            position: absolute;
+            display: flex;
+        }
+
+        #top1{
+            width: 200px;
+            height: 100px;
+            background-color: #6B705C;
+        }
+
+        #top2{
+            width: 1050px;
+            height: 100px;
+            background-color: #3B5A42;
+        }
+
+        .mids-1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .images-left{
+            width: 700px;
+            height: 190px;
+        }
+
+        .images-right{
+            width: 400px;
+            height: 400px;
+        }
+
+        .mids-2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .midbox{
+            width: 150px;
+            height: 150px;
+            background-color: #A1B189;
+        }
+
+        .mid-green{
+            width: 615px;
+            height: 320px;
+            background-color: #588158;
+        }
+
+        #bottom{
+            width: 1250px;
+            height: 100px;
+            background-color: #334E41;
+            position: absolute;
+            bottom: 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="back"> <!--바탕-->
+        <div class="tops"> <!-- 맨 위 초록색-->
+            <div id="top1"></div>
+            <div id="top2"></div>
+        </div>
+        <div class="mids-1">
+            <div class="images-left"> <!--이미지파일 세로 두 개-->
+                <img src="Rectangle 43.png">
+                <img src="Rectangle 44.png">
+            </div>
+            <img src="Rectangle 39.png" class="images-right"> <!--이미지파일 한 개-->
+        </div>
+        <div class="mids-2">
+            <div class="midbox"> <!--div 6개-->
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="mid-green"></div>
+        </div>
+        <div id="bottom"></div> <!--맨 아래 초록색-->
+    </div>
+</body>
+</html>
